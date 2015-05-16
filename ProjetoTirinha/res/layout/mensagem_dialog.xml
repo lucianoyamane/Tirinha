@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="225dp"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/linearLayoutMensagemDialog"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/editTextMensagem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center"
+            android:hint="@string/balao_mensagem"
+            android:inputType="textMultiLine"
+            android:maxLength="50"
+            android:textStyle="italic|bold"
+            android:paddingTop="55dp"
+            android:paddingLeft="50dp"
+            android:paddingRight="50dp"
+            android:paddingBottom="50dp"/>
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/buttonConfirmarMensagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/obter_imagem_label"
+        android:src="@drawable/confirmar" />
+
+</RelativeLayout>

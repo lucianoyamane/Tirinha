@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GZ</string>
+    <string name="obter_imagem_label">Obtenha uma Imagem!</string>
+	<string name="image_view_label">Foto</string>
+	<string name="balao_mensagem">digite uma mensagem!</string>
+	<string name="salvo_com_sucesso">"Salvo com sucesso!"</string>
+	<string name="como_voce_quer_compartilhar">Como você quer compartilhar?</string>
+	<string name="nome_arquivo_tirinha">tirinha.jpg</string>
+	<string name="selecione_uma_imagem">Selecione uma Imagem</string>
+	<string name="compartilhado_com_sucesso">Compartilhado com sucesso!</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <br.com.projetotirinha.surfaceview.BalaoSurfaceView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:id="@+id/surfaceViewBalao"/>
+    
+    <ImageButton
+        android:id="@+id/buttonCompartilhar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/obter_imagem_label"
+        android:src="@android:drawable/ic_menu_share" />
+    
+    <ImageButton
+        android:id="@+id/buttonSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/obter_imagem_label"
+        android:src="@android:drawable/ic_menu_save" />
+     
+     <ImageButton
+        android:id="@+id/buttonFecharBalao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/obter_imagem_label"
+        android:src="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <Gallery
+        android:id="@+id/galleryBalao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
